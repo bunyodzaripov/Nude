@@ -1,0 +1,41 @@
+@mixin title-style($font-size, $fon-weight, $color) {
+   font-size: $font-size;
+   font-weight: $fon-weight;
+   color: $color;
+}
+nav {
+   background-color: #fdf7f0;
+}
+
+#hero {
+   background-color: #fdf7f0;
+}
+
+.nav-top {
+   background-color: #374f4c;
+   text-align: center;
+   padding: 20px 0;
+}
+
+.nav-bottom {
+   display: flex;
+   justify-content: space-between;
+   padding: 52px 0 22px 0;
+   background-color: #fdf7f0;
+}
+
+.nav-list {
+   list-style: none;
+   display: flex;
+   gap: 0 60px;
+   align-items: center;
+   padding-right: 85px;
+}
+
+.nav-list__item {
+   a {
+      @include title-style(15px, 400, #3e3e42);
+      text-decoration: none;
+      font-family: "Roboto";
+   }
+}
