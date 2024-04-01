@@ -1,0 +1,92 @@
+@mixin title-style($font-size, $fon-weight, $color) {
+   font-size: $font-size;
+   font-weight: $fon-weight;
+   color: $color;
+}
+
+.hero-content {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 45px;
+}
+
+.hero-text {
+   max-width: 400px;
+}
+
+.hero-image {
+   display: flex;
+}
+
+.hero-image__group {
+   position: relative;
+   max-width: 347px;
+   span {
+      @include title-style(20px, 400, #374f4c);
+      position: absolute;
+      bottom: 250px;
+      left: 102px;
+   }
+}
+
+.hero-img-2 {
+   position: absolute;
+   bottom: 300px;
+   left: 77px;
+}
+
+.hero-title {
+   @include title-style(46px, 400, #374f4c);
+   margin-top: 45px;
+   margin-bottom: 27px;
+}
+
+.hero-subtitle {
+   color: #3e3e42;
+   margin-bottom: 16px;
+   line-height: 25px;
+}
+
+.hero-p {
+   @include title-style(11px, 400, #3e3e42);
+   font-family: "Roboto";
+   margin-bottom: 11px;
+   line-height: 25px;
+}
+
+.hero-btns {
+   display: flex;
+   gap: 0 10px;
+   margin-bottom: 60px;
+   margin-top: 48px;
+}
+
+.hero-btn {
+   display: flex;
+   gap: 0 10px;
+   background-color: black;
+   padding: 12px 14px;
+   border-radius: 10px;
+   text-decoration: none;
+   color: #fff;
+   font-family: "Roboto";
+}
+
+.hero-btns__text span {
+   font-size: 25px;
+}
+
+.hero-brands {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.border-line {
+   position: relative;
+   margin-bottom: 27px;
+}
+
+.border-line img {
+   width: 100%;
+   position: absolute;
+}

@@ -16,6 +16,18 @@
    box-sizing: content-box;
    padding: 0 16px;
 }
+body::-webkit-scrollbar {
+   width: 10px;
+}
+
+
+
+body::-webkit-scrollbar-thumb {
+   background-color: #db9a53;
+   border-radius: 20px;
+}
+
+
 
 @import url(./blocks/_nav.scss);
 @import url(./blocks/_hero.scss);
@@ -23,3 +35,11 @@
 @import url(./blocks/_about.scss);
 @import "./blocks/_blog.scss";
 @import url(./blocks/_footer.scss);
+
+@import "./blocks/_nav.scss";
+@import "./blocks/_hero.scss";
+@import "./blocks/_testimonial.scss";
+@import "./blocks/_about.scss";
+@import "./blocks/_blog.scss";
+@import "./blocks/_footer.scss";
+
