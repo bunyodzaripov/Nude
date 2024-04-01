@@ -1,109 +1,111 @@
 #blog {
-    background-color: #cad4bd;
-    .blog-item {
-        text-align: center;
-        background-color: #fdf7f0;
-    }
+   background-color: #cad4bd;
+   .blog-item {
+      text-align: center;
+      background-color: #fdf7f0;
+      padding: 100px 0;
+   }
 
-    .blog-cards {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 112px;
-    }
-    .blog-title  span{
-        font-family: "Roboto";
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 26px;
-        color: #3E3E42;
-        margin-bottom: 14px;
-    }
-    .blog-title_item {
-        font-family: "Times New Roman";
-        font-weight: 400;
-        font-size: 46px;
-        line-height: 50px;color: #3E3E42;
-        text-align: center;
-    }
-    .blog-card h2{
-        font-family: "Times New Roman";
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 30px;
-        color: #3E3E42;
-    }
-    .blog-card p {
-        margin: 30px 0 18px 0;
-        font-family: "Segoe UI";
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color: #3E3E42;
-    }
-    .blog-card span {
-        font-family: "Segoe UI";
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color:#3E3E42;
-    }
-    .blog-card  a {
-        text-decoration: none;
-        font-family: "Segoe UI";
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 21px;
-        color: #3E3E42;
-        padding: 2px 8px ;
-        background-color: #fff;
-        border-radius: 20px;
-    }
-    .blog-text-title {
-        font-family: "Times New Roman";
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 30px;
-        color: #3E3E42;
-    }
-    .blog-card_text {
-        margin: 30px 0 18px 0;
-        font-family: "Segoe UI";
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color: #3E3E42;
-    }
-    .blog-text-item {
-        font-family: "Segoe UI";
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color:#3E3E42;
-    }
-    .blog-btn {
-        padding: 6px 12px;
-        text-decoration: none;
-        color: #3E3E42;
-        border: 1px solid #F8F9FA;
-        border-radius: 15px;
-        margin-bottom: 50px;
-        display: inline-block;
-    }
-    .blog-img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Times New Roman;
-        font-size: 102px;
-        font-weight: 400;
-        line-height: 102px;
-        letter-spacing: 4.079999923706055px;
-        text-align: center;
-        color: #fff;
-        height: 506px;
-        background-repeat: repeat;
-        background-size: cover;
-        background-image: url(/assets/images/blog.png);
-    }
-    }
+   .blog-cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 112px;
+   }
+   .blog-title span {
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 26px;
+      color: #3e3e42;
+      margin-bottom: 14px;
+   }
+   .blog-title_item {
+      font-family: "Times New Roman";
+      font-weight: 400;
+      font-size: 46px;
+      line-height: 50px;
+      color: #3e3e42;
+      text-align: center;
+   }
+   .blog-card h2 {
+      font-family: "Times New Roman";
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 30px;
+      color: #3e3e42;
+   }
+   .blog-card p {
+      margin: 30px 0 18px 0;
+      font-family: "Segoe UI";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #3e3e42;
+   }
+   .blog-card span {
+      font-family: "Segoe UI";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #3e3e42;
+   }
+   .blog-card a {
+      text-decoration: none;
+      font-family: "Segoe UI";
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 21px;
+      color: #3e3e42;
+      padding: 2px 8px;
+      background-color: #fff;
+      border-radius: 20px;
+   }
+   .blog-text-title {
+      font-family: "Times New Roman";
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 30px;
+      color: #3e3e42;
+   }
+   .blog-card_text {
+      margin: 30px 0 18px 0;
+      font-family: "Segoe UI";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #3e3e42;
+   }
+   .blog-text-item {
+      font-family: "Segoe UI";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #3e3e42;
+   }
+   .blog-btn {
+      padding: 6px 12px;
+      text-decoration: none;
+      color: #3e3e42;
+      border: 1px solid #f8f9fa;
+      border-radius: 15px;
+      margin-bottom: 50px;
+      display: inline-block;
+   }
+   .blog-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Times New Roman;
+      font-size: 102px;
+      font-weight: 400;
+      line-height: 102px;
+      letter-spacing: 4.079999923706055px;
+      text-align: center;
+      color: #fff;
+      height: 506px;
+      background-repeat: repeat;
+      background-size: cover;
+      background-image: url(/assets/images/blog.png);
+   }
+}

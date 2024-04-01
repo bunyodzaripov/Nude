@@ -16,6 +16,7 @@
 
 .hero-image {
    display: flex;
+   align-items: start;
 }
 
 .hero-image__group {
@@ -24,14 +25,14 @@
    span {
       @include title-style(20px, 400, #374f4c);
       position: absolute;
-      bottom: 250px;
+      bottom: 80px;
       left: 102px;
    }
 }
 
 .hero-img-2 {
    position: absolute;
-   bottom: 300px;
+   bottom: 135px;
    left: 77px;
 }
 
@@ -74,11 +75,13 @@
 
 .hero-btns__text span {
    font-size: 25px;
+   color: #fff;
 }
 
 .hero-brands {
    display: flex;
    flex-wrap: wrap;
+   gap: 7px;
 }
 
 .border-line {
