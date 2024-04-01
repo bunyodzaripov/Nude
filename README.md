@@ -1,4 +1,4 @@
-# [https://hola-fashion.netlify.app/](https://nude-landing-page.netlify.app)
+# https://nude-landing-page.netlify.app
 
 
 
@@ -27,7 +27,7 @@
 
 ### Introduction
 
-[Hola fashion](https://hola-fashion.netlify.app/) is a comprehensive web application built using React that aims to streamline logistics and supply chain management. It provides a user-friendly interface for businesses to efficiently manage their logistics operations, track shipments, and optimize routes.
+[Nude](https://nude-landing-page.netlify.app) is a comprehensive web application built using React that aims to streamline logistics and supply chain management. It provides a user-friendly interface for businesses to efficiently manage their logistics operations, track shipments, and optimize routes.
 
 ### Features
 
@@ -39,7 +39,7 @@
 
 ### Demo
 
-You can access a live demo of the project at [Hola Fashion](https://hola-fashion.netlify.app/). For demo purposes, you can use the following credentials:
+You can access a live demo of the project at [Nude](https://nude-landing-page.netlify.app). For demo purposes, you can use the following credentials:
 
 - **Username:** demo_user
 - **Password:** demo_password
@@ -125,7 +125,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 #### Acknowledgements
 Special thanks to our contributors and the open-source community.
 We use various open-source libraries and tools that greatly contribute to this project.
-Feel free to reach out to us at [Hola Fashion](https://hola-fashion.netlify.app/) for any questions or support.
+Feel free to reach out to us at [Nude](https://nude-landing-page.netlify.app) for any questions or support.
 
 Visit our website for more information about our services and solutions.
 
