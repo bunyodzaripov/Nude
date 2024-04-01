@@ -19,7 +19,7 @@
 
 @import url(./blocks/_nav.scss);
 @import url(./blocks/_hero.scss);
-@import url(./blocks/_testimonial.scss);
+@import "./blocks/testimonial";
 @import url(./blocks/_about.scss);
-@import url(./blocks/_blog.scss);
+@import "./blocks/_blog.scss";
 @import url(./blocks/_footer.scss);
