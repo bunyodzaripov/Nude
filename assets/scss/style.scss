@@ -1,0 +1,25 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: "Segoe UI";
+   font-weight: 400;
+   src: url(../fonts/Segoe\ UI.woff2);
+}
+
+.container {
+   max-width: 1125px;
+   margin: 0 auto;
+   box-sizing: content-box;
+   padding: 0 16px;
+}
+
+@import url(./blocks/_nav.scss);
+@import url(./blocks/_hero.scss);
+@import url(./blocks/_testimonial.scss);
+@import url(./blocks/_about.scss);
+@import url(./blocks/_blog.scss);
+@import url(./blocks/_footer.scss);
