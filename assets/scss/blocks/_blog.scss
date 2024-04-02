@@ -1,5 +1,10 @@
 #blog {
    background-color: #cad4bd;
+   .blog-wrapper {
+      max-width: 1440px;
+      margin: 0 auto;
+   }
+
    .blog-item {
       text-align: center;
       background-color: #fdf7f0;
@@ -8,8 +13,8 @@
 
    .blog-cards {
       display: flex;
-      align-items: center;
-      justify-content: space-around;
+      align-items: start;
+      justify-content: space-between;
       margin-top: 112px;
    }
    .blog-title span {
@@ -50,17 +55,19 @@
       line-height: 20px;
       color: #3e3e42;
    }
-   .blog-card a {
+
+   .blog-links {
       text-decoration: none;
       font-family: "Segoe UI";
       font-weight: 400;
       font-size: 13px;
       line-height: 21px;
       color: #3e3e42;
-      padding: 2px 8px;
+      padding: 1px 18px;
       background-color: #fff;
       border-radius: 20px;
    }
+
    .blog-text-title {
       font-family: "Times New Roman";
       font-weight: 400;
@@ -83,15 +90,18 @@
       line-height: 20px;
       color: #3e3e42;
    }
+
    .blog-btn {
-      padding: 6px 12px;
+      padding: 10px 12px;
       text-decoration: none;
       color: #3e3e42;
       border: 1px solid #f8f9fa;
       border-radius: 15px;
       margin-bottom: 50px;
       display: inline-block;
+      background-color: #cad4bd;
    }
+
    .blog-img {
       display: flex;
       align-items: center;
